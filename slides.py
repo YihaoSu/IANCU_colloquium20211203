@@ -75,3 +75,34 @@ if topic == '可以用Python解決哪些問題？':
 	with st.expander('更多應用'):
 		st.markdown('* 自動寄發Email及Line通知、自動讀寫Google Sheets和Drive上的檔案資料、...')
 		st.markdown('* 歡迎參加[台灣Python年會](https://tw.pycon.org/2021/zh-hant)')
+
+if topic == '如何藉由Python與天文維持關係？':
+	st.header('如何藉由Python與天文維持關係？')
+	with st.expander('PyCon Taiwan 2017'):
+		st.subheader('天文黑客們的Python大冒險')
+		st.markdown('* [簡報](https://hackmd.io/@astrobackhacker/rJhGJeNzZ)')
+		st.markdown('* 演講錄影：')
+		st.video('https://www.youtube.com/watch?v=MX-cur3_ZgA')
+
+	with st.expander('PyCon Taiwan 2018'):
+		st.subheader('以Astroquery套件擷取線上天文觀測資料')
+		st.markdown('* [簡報](https://hackmd.io/@astrobackhacker/B1pDk2iAf)')
+		st.markdown('* 演講錄影：')
+		st.video('https://www.youtube.com/watch?v=sPUVD4XWOvE')
+
+	with st.expander('PyCon Taiwan 2019'):
+		st.subheader('用Python拉近群眾與星空的距離：Astrohackers in Taiwan社群介紹')
+		st.markdown('* [簡報](https://hackmd.io/@astrobackhacker/ByWuFL1DB)')
+		st.markdown('* 演講錄影：')
+		st.video('https://www.youtube.com/watch?v=SbcbHFpGtY0')
+
+	with st.expander('PyCon Taiwan 2020'):
+		st.subheader('重力波調查員：鄉民都來分析重力波觀測資料')
+		st.markdown('* [簡報](https://hackmd.io/@astrobackhacker/rkZ4n-0MD)')
+		st.markdown('* 演講錄影：')
+		st.video('https://www.youtube.com/watch?v=i36y82mIQtA')
+
+	with st.expander('PyCon Taiwan 2021'):
+		st.subheader('搭上Streamlit特快車遊沐星光程式')
+		st.markdown('* [簡報](https://hackmd.io/@astrobackhacker/r1sEG3eeF)')
+		st.markdown('* 演講錄影：')
