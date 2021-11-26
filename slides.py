@@ -106,3 +106,14 @@ if topic == '如何藉由Python與天文維持關係？':
 		st.subheader('搭上Streamlit特快車遊沐星光程式')
 		st.markdown('* [簡報](https://hackmd.io/@astrobackhacker/r1sEG3eeF)')
 		st.markdown('* 演講錄影：')
+
+if topic == '揪團用Python拉近群眾與星空的距離':
+	st.header('揪團用Python拉近群眾與星空的距離')
+	st.subheader('[g0v零時小學校](https://sch001.g0v.tw/) 2021-22 Demo Day的提案：「[鄉民都來開拓公民天文學家的地圖[0]：從互動式開源教材開始](https://sch001.g0v.tw/dash/prj/2Sk_LR05YD05j20AmR02l9dxC)」')
+
+	if st.button('加入我們'):
+		_, col, _ = st.columns(3)
+		with col:
+			st.subheader('謝謝大家！')
+			st.subheader('「Python在天文領域的應用」FB社團')
+			st.image('./qrcode.png')
