@@ -106,6 +106,7 @@ if topic == '如何藉由Python與天文維持關係？':
 		st.subheader('搭上Streamlit特快車遊沐星光程式')
 		st.markdown('* [簡報](https://hackmd.io/@astrobackhacker/r1sEG3eeF)')
 		st.markdown('* 演講錄影：')
+		st.video('https://www.youtube.com/watch?v=n0PdS7cehZM')
 
 if topic == '揪團用Python拉近群眾與星空的距離':
 	st.header('揪團用Python拉近群眾與星空的距離')
